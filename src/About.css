@@ -1,0 +1,69 @@
+.about
+{
+    width: 100%;
+    padding-left: 30px;
+}
+.about h2
+{
+font-size: 36px;
+color: black;
+margin-bottom: 5px;
+}
+.about h2 span{
+    color:#ffb400;
+    font-family: math;
+}
+.about .hr{
+    width: 10%;
+    height: 3px;
+    background-color: #d0d9e1;
+    border-radius: 5px;
+}
+.about p{
+    font-size: 18px;
+    color: #000;
+    font-family: math;
+    line-height: 1.5em;
+
+}
+.about .hr .hr1
+{
+    background-color: #ffb400;
+width: 50%;
+height: 3px;
+
+}
+.about-container-row
+{
+    display: flex;
+    
+    margin-top: 20px;
+  
+}
+.about-clmn2
+{
+    margin-left: 20px;
+    align-self: center;
+}
+.about-clmn2 ul{
+    list-style: none;
+    font-family: math;
+    font-size: 20px;
+    line-height: 2em;
+    padding-left: 0px;
+}
+.more
+{
+  background-color: #ffb400;
+  color: #fff;
+  font-family: math;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #ffb400;
+  cursor: pointer;
+}
+.more:hover{
+  background-color: #fff;
+  color:#ffb400;
+
+}

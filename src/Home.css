@@ -1,0 +1,43 @@
+
+.home
+{
+  align-self: center;
+
+  text-align: center;
+  
+ 
+  width: 100%;
+}
+.home h2
+{
+  font-size: 64px;
+  font-weight: 500;
+  font-family: math;
+
+}
+.home h2 span
+{
+  color: #ffb400;
+  margin-bottom: 0px;
+}
+.home p{
+  margin-top: -40px;
+  font-size: 24px;
+  font-family: math;
+  line-height:2em;
+}
+.more
+{
+  background-color: #ffb400;
+  color: #fff;
+  font-family: math;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #ffb400;
+  cursor: pointer;
+}
+.more:hover{
+  background-color: #fff;
+  color:#ffb400;
+
+}

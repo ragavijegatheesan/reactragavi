@@ -1,0 +1,37 @@
+.contact{
+    padding-top: 50px;
+    width: 100%;
+}
+.contact .heading
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+    font-size: 64px;
+    position: relative;
+    top: -14%;
+    left: 35%;
+    opacity: 0.1;
+}
+.contact h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: math;
+}
+.contactpno
+{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contactpno p{
+    font-size: 18px;
+    font-family: math;
+    font-weight: 700;
+}
+.contactpno span
+{
+    margin-right: 15px;
+}

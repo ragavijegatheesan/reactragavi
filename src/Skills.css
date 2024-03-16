@@ -1,0 +1,152 @@
+.SkillContainer 
+{
+   padding: 10px;
+}
+.SkillContainer h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+ 
+}
+.SkillContainer .hr{
+    width: 10%;
+    height: 3px;
+    background-color: #ffb400;
+    text-align: center;
+    margin: 0 auto 20px auto;
+
+}
+
+.About_container
+{
+  margin-top:50px;
+
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+flex-wrap: wrap;
+}
+.Card
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+.Card .imgbx,
+.Card .textbx
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.Card .imgbx{
+    background-color: #fff;
+    height: 80px;
+    z-index: 1;
+    transform-origin: bottom;
+}
+.Card:hover .imgbx
+{
+transform: translateY(-100%) rotateX(90deg);
+}
+.imgbx img{
+    width: 130px;
+    height: auto;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+.Card .textbx{
+    height: 300px;
+    background-color: aqua;
+    border-top: 8px solid #333;
+    transform-origin: top;
+    transition-delay: 0.5;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.Card:hover .textbx
+{
+transform: translateY(100%) rotateX(90deg);
+}
+.Card .textbx h2{
+    color: #222;
+    font-size: 1em;
+    letter-spacing: 0.10em;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #fff;
+    position: relative;
+   padding: 5px 25px;
+   box-shadow: 0 0 0 4px aquamarine;
+}
+
+.Card .imgbx::before
+{
+    content: '';
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 144px;
+    height: 74px;
+    background: #fff;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    z-index: 1;
+}
+
+.Card .textbx::before
+{
+    content: '';
+    position: absolute;
+    top: -8px;
+    width: 160px;
+    height: 80px;
+    background: #333;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+  
+}
+.Card .content
+{
+position: absolute;
+inset:0;
+color: #000;
+text-align: center;
+display: flex;
+flex-direction: column;
+
+}
+.Card .content h2{
+   
+    color: #ffb400;
+}
+.Card .content ul
+{
+   
+    text-align:justify;
+    
+}
+.Card .content ul li{
+    line-height: 1.8em;
+    font-size: 18px;
+    font-weight:500;
+}
+
+
+
+
