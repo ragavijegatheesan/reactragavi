@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router  basename="/reactragavi">
       <div className="App">
        
         <div className="content">
@@ -20,10 +20,10 @@ function App() {
           
           {/* Use Routes instead of Route */}
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/skills" element={<Skills />} />
+            <Route exact path="/contact" element={<Contact />} />
           </Routes>
           
         </div>

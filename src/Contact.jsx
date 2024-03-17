@@ -6,7 +6,7 @@ import { FaLinkedinIn, FaMailBulk, FaPhone} from 'react-icons/fa';
 const Contact = () => {
   return (
     <div className='page contact'>
-      <h2>Contact</h2>
+      
       <span className='heading'>Contact me</span>
      
     
